@@ -1,0 +1,28 @@
+numberss=[]
+marks=[]
+for i in range(5):
+    name=input("enter the "+ str(i+1) +" student name \n")
+    numberss.append(name)
+print("list of students is " , numberss)
+for i in range (5):
+    mark=int(input(("enter marks obtained by " + numberss[i]+" :")))
+    marks.append(mark)
+print("marks of student are :" , marks)
+
+(COUNTING A PARTICULAR DIGIT IN LIST ))
+
+
+def count_0(numbers):
+    count=0
+    for i in numbers:
+        if(i==0):
+                count=count+1
+    return count
+numbers=[]
+n=int(input("how many numbers you want to add\n"))
+for i in range(n):
+    a=int(input("enter the number\n"))
+    numbers.append(a)
+count_0(numbers)
+result=count_0(numbers)
+print(result)
