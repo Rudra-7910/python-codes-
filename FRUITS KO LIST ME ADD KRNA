@@ -1,0 +1,6 @@
+fruits=[]
+n=int(input("how many fruits do u want to add\n"))
+for i in range(n):
+    fruitss=input("enter the "+ str(i+1)+ " fruit name\n")
+    fruits.append(fruitss)
+print("your list is ", fruits)
