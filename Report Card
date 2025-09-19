@@ -1,0 +1,12 @@
+names=[]
+marks=[]
+for i in range (3):
+    name=input("Enter the name of " + str(i+1) + " student\n")
+    names.append(name)
+print("names of all students is " ,names)
+for i in range(3):
+    mark=int(input("enter the marks obtained by "+ names[i]+ "\n"))
+    marks.append(mark)
+for i in range(3):
+    print("FINAL REPORT CARD IS READY")
+    print("marks obtained by " + names[i] + " is " + str(marks[i]))
