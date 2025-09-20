@@ -1,0 +1,17 @@
+import math
+coordinates1=[]
+coordinates2=[]
+def distance_bw_coordinates(l1,l2):
+    distance=math.sqrt(((l1[0]-l2[0])**2) + ( l1[1]-l2[1] ) **2)
+    return distance
+x1=int(input("Enter the x coordinate of 1st point\n"))
+y1=int(input("Enter the y coordinate of 2nd point\n"))
+coordinates1.append(x1)
+coordinates1.append(y1)
+print("coordinates of 1st point is ", coordinates1)
+x2=int(input("Enter the x coordinate of 1st point\n"))
+y2=int(input("Enter the y coordinate of 2nd point\n"))
+coordinates2.append(x2)
+coordinates2.append(y2)
+print("coordinates of 2nd point is ",coordinates2)
+print(distance_bw_coordinates(coordinates1,coordinates2))
