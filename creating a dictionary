@@ -1,0 +1,13 @@
+translate={
+    "paani":"water",
+    "khelna":"playing",
+    "khana":"eating",
+    "pankha":"fan"
+}
+word=input("enter the hindi word of you want meaning\n")
+meaning=translate.get(word)
+if meaning:
+        print(f"Meaning of {word} is {meaning}")
+else:
+        print("sorry this word is not in dictionary\n")
+    
